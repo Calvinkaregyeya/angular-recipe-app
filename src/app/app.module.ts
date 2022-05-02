@@ -21,6 +21,7 @@ import { AuthComponent } from "./auth/auth.component";
 import { LoaderComponent } from "./shared/loader/loader.component";
 import { AuthInterceptorService } from "./auth/auth-interceptor";
 import { AlertComponent } from "./shared/alert/alert.component";
+import { PlaceHolderDirective } from "./shared/placeholder/placeholder.directive";
 
 @NgModule({
   declarations: [
@@ -38,6 +39,7 @@ import { AlertComponent } from "./shared/alert/alert.component";
     AuthComponent,
     LoaderComponent,
     AlertComponent,
+    PlaceHolderDirective,
   ],
   imports: [
     BrowserModule,
