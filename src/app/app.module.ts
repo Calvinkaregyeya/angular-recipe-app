@@ -13,8 +13,6 @@ import { SharedModule } from "./shared/shared-module";
   declarations: [AppComponent, HeaderComponent],
   imports: [BrowserModule, HttpClientModule, AppRoutingModule, SharedModule],
   providers: [
-    ShoppingListService,
-    RecipeService,
     {
       provide: HTTP_INTERCEPTORS,
       useClass: AuthInterceptorService,

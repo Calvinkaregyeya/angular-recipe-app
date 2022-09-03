@@ -22,9 +22,7 @@ export class DataStorageService {
         "https://angular-http-2a2cf-default-rtdb.firebaseio.com/recipes.json",
         recipes
       )
-      .subscribe((response) => {
-        console.log(response);
-      });
+      .subscribe((response) => {});
   }
 
   public fetchRecipes() {
